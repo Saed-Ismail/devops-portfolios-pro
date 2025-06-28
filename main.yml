@@ -6,12 +6,13 @@ on:
       - main
 
 jobs:
-  test:
+  example:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Print Hello
-        run: echo "🚀 Hello from GitHub Actions!"
+      - name: Say Hello
+        run: echo "✅ GitHub Actions is working!"
 
